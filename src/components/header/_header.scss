@@ -1,0 +1,34 @@
+.principal-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background: $corporativeBlue;
+    height: 50px;
+    width: 100%;
+    @include whith-shadow;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.95;
+    color: $corporativeWhite;
+    .nav-container{
+        width: 75%;
+        max-width: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo-container{
+        margin-top: 5px;
+        svg{
+            height: 50px; 
+            .st0{
+                fill: $corporativeWhite;
+            }
+        }
+    }
+}

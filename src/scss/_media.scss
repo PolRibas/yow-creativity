@@ -1,0 +1,35 @@
+@media (min-width: 360px){
+    .onlyphone {
+        display: block;
+    }
+    .onlyipad {
+        display: none;
+    }
+    .onlydesktop {
+        display: none;
+    }
+}
+
+@media (min-width: 500px){
+    .onlyphone {
+        display: none;
+    }
+    .onlyipad {
+        display: block;
+    }
+    .onlydesktop {
+        display: none;
+    }
+}
+
+@media (min-width: 980px){
+    .onlyphone {
+        display: none;
+    }
+    .onlyipad {
+        display: none;
+    }
+    .onlydesktop {
+        display: block;
+    }
+}

@@ -1,0 +1,12 @@
+.principal-footer{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background: $corporativeBlue;
+    color: $corporativeWhite;
+    opacity: 0.95;
+    @include flex-space-row;
+    font-size: 12px;
+    @include whith-shadow;
+}

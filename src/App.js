@@ -1,18 +1,29 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import './css/main.css'
+import Header from './components/header/Header';
+import HeadSection from './pages/home/HeadSection';
+import Footer from './components/footer/Footer';
+import About from './pages/home/About';
 
-import WelcomePage from './pages/WelcomePage';
 
 function App() {
   return (
     <div className="App">
-        <Router>
-            <Switch>
-                <Route path="/" exact component={WelcomePage} />
-            </Switch>
-        </Router>
+        <Header />
+        <section className='section-container'>
+            <HeadSection />
+        </section>
+        <section className='section-container'>
+
+        </section>
+        <section className='section-container'>
+
+        </section>
+        <section className='section-container'>
+            <About />
+        </section>
+        <Footer />
     </div>
   );
 }
