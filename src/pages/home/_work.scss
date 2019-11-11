@@ -1,0 +1,24 @@
+.work-container{
+    width: 100%;
+    @include flex-center-column;
+    .work-item{
+        margin: 20px 0px;
+        @include flex-center-column;
+        padding: 5px;
+        p{
+            max-width: 700px;
+            font-size: 20px;
+            text-align: center;
+            big{
+                max-width: 600px;
+                font-size: 20px;
+                color: $corporativeBlue;
+            }
+        }
+        img{
+            width: 80%;
+            max-width: 250px;
+            margin-bottom: 10px; 
+        }
+    }
+}

@@ -3,6 +3,7 @@ h1, h2, h3 {
     font-family: 'Baloo', cursive;
     font-weight: 700;
     font-size: 30px;
+    margin: 0;
 }
 
 h2{
@@ -17,10 +18,12 @@ h3{
 }
 
 p, a , label{
+    font-size: 15px;
     font-family: 'Baloo', cursive;
 }
 
 small{
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'Baloo', cursive;
+    margin: 0;
 }

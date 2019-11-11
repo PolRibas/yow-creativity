@@ -2,10 +2,18 @@
 .display-none {
   display: none; }
 
+.principal-title {
+  color: #60c2f9;
+  width: 100%;
+  text-align: center;
+  font-size: 44px;
+  margin: 50px 0px 10px 0px; }
+
 h1, h2, h3 {
   font-family: 'Baloo', cursive;
   font-weight: 700;
-  font-size: 30px; }
+  font-size: 30px;
+  margin: 0; }
 
 h2 {
   font-weight: 600;
@@ -17,11 +25,13 @@ h3 {
   font-family: 'Baloo', cursive; }
 
 p, a, label {
+  font-size: 15px;
   font-family: 'Baloo', cursive; }
 
 small {
-  font-size: 14px;
-  font-family: 'Baloo', cursive; }
+  font-size: 15px;
+  font-family: 'Baloo', cursive;
+  margin: 0; }
 
 @media (min-width: 360px) {
   .onlyphone {
@@ -95,20 +105,106 @@ ul {
       color: #60c2f9;
       font-size: 38px; }
 
-.principal-about .text-about {
+.principal-about {
+  margin-bottom: 20px;
+  padding: 5px; }
+  .principal-about .text-about {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .principal-about .text-about h3 {
+      max-width: 500px;
+      font-size: 25px; }
+      .principal-about .text-about h3 big {
+        color: #60c2f9;
+        font-size: 25px; }
+    .principal-about .text-about .final-text {
+      margin: 50px 0px 20px 0px; }
+      .principal-about .text-about .final-text big {
+        color: #60c2f9;
+        font-size: 25px; }
+  .principal-about .people-about {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center; }
+    .principal-about .people-about .people-unit {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      .principal-about .people-about .people-unit img {
+        width: 180px; }
+      .principal-about .people-about .people-unit p {
+        color: #60c2f9;
+        margin: 0; }
+      .principal-about .people-about .people-unit .title {
+        color: black; }
+
+.work-container {
   width: 100%;
-  text-align: center;
   display: flex;
-  flex-direction: row;
-  justify-content: center; }
-  .principal-about .text-about h3 {
-    max-width: 500px;
-    font-size: 25px; }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .work-container .work-item {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px; }
+    .work-container .work-item p {
+      max-width: 700px;
+      font-size: 20px;
+      text-align: center; }
+      .work-container .work-item p big {
+        max-width: 600px;
+        font-size: 20px;
+        color: #60c2f9; }
+    .work-container .work-item img {
+      width: 80%;
+      max-width: 250px;
+      margin-bottom: 10px; }
+
+.our-projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .our-projects .project-item {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px; }
+    .our-projects .project-item h3 {
+      max-width: 600px;
+      font-size: 30px;
+      color: #60c2f9;
+      margin-bottom: 20px; }
+    .our-projects .project-item p {
+      max-width: 700px;
+      font-size: 20px;
+      text-align: center; }
+      .our-projects .project-item p big {
+        max-width: 600px;
+        font-size: 20px;
+        color: #60c2f9; }
+    .our-projects .project-item svg {
+      width: 80%;
+      max-width: 180px;
+      margin-bottom: 10px;
+      margin-bottom: -50px; }
+    .our-projects .project-item .wis-logo {
+      margin: -55px 0px; }
 
 .principal-footer {
-  position: sticky;
-  bottom: 0;
-  left: 0;
   width: 100vw;
   background: #60c2f9;
   color: #f2f2f2;
